@@ -12,6 +12,8 @@ struct M4L6_challengeApp: App {
     var body: some Scene {
         WindowGroup {
             PersonTabView()
+                .environmentObject(PersonModel())
         }
+        
     }
 }

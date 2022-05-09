@@ -7,30 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB1EEEA62827EF5C0090AA59 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEA52827EF5C0090AA59 /* DataServices.swift */; };
-		DB1EEEA92827F41D0090AA59 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEA82827F41D0090AA59 /* PersonModel.swift */; };
-		DB1EEEAB2827F4DB0090AA59 /* PersonTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEAA2827F4DB0090AA59 /* PersonTabView.swift */; };
-		DB6BBBBD2827E6A000D99474 /* M4L6_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BBBBC2827E6A000D99474 /* M4L6_challengeApp.swift */; };
+		DB1EEEB228293E760090AA59 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEAE28293E760090AA59 /* Model.swift */; };
+		DB1EEEB328293E760090AA59 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEAF28293E760090AA59 /* PersonView.swift */; };
+		DB1EEEB428293E760090AA59 /* EnvironmentObjectChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEB028293E760090AA59 /* EnvironmentObjectChallengeApp.swift */; };
+		DB1EEEB528293E760090AA59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EEEB128293E760090AA59 /* ContentView.swift */; };
 		DB6BBBC12827E6A500D99474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6BBBC02827E6A500D99474 /* Assets.xcassets */; };
 		DB6BBBC42827E6A500D99474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6BBBC32827E6A500D99474 /* Preview Assets.xcassets */; };
-		DB6BBBD02827E71100D99474 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6BBBCF2827E71100D99474 /* data.json */; };
-		DB6BBBD42827E81900D99474 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BBBD32827E81900D99474 /* Person.swift */; };
-		DB6BBBD82827E84100D99474 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BBBD72827E84100D99474 /* PeopleListView.swift */; };
-		DB6BBBDA2827E85900D99474 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BBBD92827E85900D99474 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB1EEEA52827EF5C0090AA59 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
-		DB1EEEA82827F41D0090AA59 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
-		DB1EEEAA2827F4DB0090AA59 /* PersonTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTabView.swift; sourceTree = "<group>"; };
+		DB1EEEAE28293E760090AA59 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DB1EEEAF28293E760090AA59 /* PersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		DB1EEEB028293E760090AA59 /* EnvironmentObjectChallengeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectChallengeApp.swift; sourceTree = "<group>"; };
+		DB1EEEB128293E760090AA59 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB6BBBB92827E6A000D99474 /* M4L6-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M4L6-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB6BBBBC2827E6A000D99474 /* M4L6_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M4L6_challengeApp.swift; sourceTree = "<group>"; };
 		DB6BBBC02827E6A500D99474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6BBBC32827E6A500D99474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DB6BBBCF2827E71100D99474 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		DB6BBBD32827E81900D99474 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		DB6BBBD72827E84100D99474 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
-		DB6BBBD92827E85900D99474 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,14 +36,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB1EEEA42827EF4B0090AA59 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				DB1EEEA52827EF5C0090AA59 /* DataServices.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		DB6BBBB02827E6A000D99474 = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +55,10 @@
 		DB6BBBBB2827E6A000D99474 /* M4L6-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				DB6BBBCA2827E6AD00D99474 /* Entry */,
-				DB6BBBCD2827E6CF00D99474 /* Models */,
-				DB6BBBCC2827E6C700D99474 /* Views */,
-				DB6BBBCB2827E6B800D99474 /* ViewModels */,
-				DB1EEEA42827EF4B0090AA59 /* Services */,
-				DB6BBBCE2827E6F400D99474 /* Data */,
+				DB1EEEB028293E760090AA59 /* EnvironmentObjectChallengeApp.swift */,
+				DB1EEEB128293E760090AA59 /* ContentView.swift */,
+				DB1EEEAE28293E760090AA59 /* Model.swift */,
+				DB1EEEAF28293E760090AA59 /* PersonView.swift */,
 				DB6BBBC02827E6A500D99474 /* Assets.xcassets */,
 				DB6BBBC22827E6A500D99474 /* Preview Content */,
 			);
@@ -89,48 +71,6 @@
 				DB6BBBC32827E6A500D99474 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DB6BBBCA2827E6AD00D99474 /* Entry */ = {
-			isa = PBXGroup;
-			children = (
-				DB6BBBBC2827E6A000D99474 /* M4L6_challengeApp.swift */,
-			);
-			path = Entry;
-			sourceTree = "<group>";
-		};
-		DB6BBBCB2827E6B800D99474 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				DB1EEEA82827F41D0090AA59 /* PersonModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		DB6BBBCC2827E6C700D99474 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DB1EEEAA2827F4DB0090AA59 /* PersonTabView.swift */,
-				DB6BBBD72827E84100D99474 /* PeopleListView.swift */,
-				DB6BBBD92827E85900D99474 /* SettingsView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DB6BBBCD2827E6CF00D99474 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				DB6BBBD32827E81900D99474 /* Person.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		DB6BBBCE2827E6F400D99474 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				DB6BBBCF2827E71100D99474 /* data.json */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +105,7 @@
 				TargetAttributes = {
 					DB6BBBB82827E6A000D99474 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -192,7 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BBBC42827E6A500D99474 /* Preview Assets.xcassets in Resources */,
-				DB6BBBD02827E71100D99474 /* data.json in Resources */,
 				DB6BBBC12827E6A500D99474 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,13 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6BBBD42827E81900D99474 /* Person.swift in Sources */,
-				DB1EEEA92827F41D0090AA59 /* PersonModel.swift in Sources */,
-				DB6BBBD82827E84100D99474 /* PeopleListView.swift in Sources */,
-				DB6BBBDA2827E85900D99474 /* SettingsView.swift in Sources */,
-				DB1EEEAB2827F4DB0090AA59 /* PersonTabView.swift in Sources */,
-				DB1EEEA62827EF5C0090AA59 /* DataServices.swift in Sources */,
-				DB6BBBBD2827E6A000D99474 /* M4L6_challengeApp.swift in Sources */,
+				DB1EEEB228293E760090AA59 /* Model.swift in Sources */,
+				DB1EEEB328293E760090AA59 /* PersonView.swift in Sources */,
+				DB1EEEB528293E760090AA59 /* ContentView.swift in Sources */,
+				DB1EEEB428293E760090AA59 /* EnvironmentObjectChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"M4L6-challenge/Preview Content\"";
@@ -357,6 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pabloreiser.M4L6-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"M4L6-challenge/Preview Content\"";

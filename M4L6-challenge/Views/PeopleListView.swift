@@ -8,10 +8,20 @@
 import SwiftUI
 
 struct PeopleListView: View {
+    
+    @EnvironmentObject var modell:PersonModel
+    
+    @ObservedObject var model = PersonModel()
+    
     var body: some View {
-        Text("This is the People List View")
+        NavigationView {
+            List(model.persons) { person in
+                Text(person.name)
+            }
+        }
     }
 }
+
 
 struct PeopleListView_Previews: PreviewProvider {
     static var previews: some View {

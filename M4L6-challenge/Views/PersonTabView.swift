@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PersonTabView: View {
+    
+    @EnvironmentObject var model:PersonModel
+    
     var body: some View {
         TabView {
             PeopleListView()
@@ -19,7 +22,6 @@ struct PersonTabView: View {
                     Image(systemName: "gear")
                 }
         }
-        .environmentObject(PersonModel())
     }
 }
 

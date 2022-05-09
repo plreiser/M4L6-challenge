@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    @EnvironmentObject var model:PersonModel
+    
     var body: some View {
-        Text("This is the Settings View")
+        Text("This is Settings view")
     }
 }
 
